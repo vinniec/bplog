@@ -1,0 +1,13 @@
+#file da ignorare nel tracciamento delle modifiche
+#i commenti sono validi solo con cancelletti ad inizio riga
+
+#ignoro i precompilati e le dir di cache di python
+*.pyc
+__pycache__
+#ignoro la cartella contenente i file dell'ambiente virtuale di python
+myvenv
+#ignoro i db (i dati, non vanno su github)
+db.sqlite3
+#nn so cosa ci andrà dentro a static e store
+/static
+.DS_Store
